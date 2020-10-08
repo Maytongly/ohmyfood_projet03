@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Kalam:wght@300&family=Kaushan+Script&family=Sail&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  padding-bottom: 35px;
+  width: 100%;
+}
+
+header {
+  background-color: #387a6f;
+  color: #dbe2b0;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
+
+footer {
+  background-color: #387a6f;
+  color: #dbe2b0;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px;
+}
+
+#menus {
+  margin: auto;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#menus h2 {
+  font-size: 1.8rem;
+}
+#menus a {
+  font-family: "Kalam", cursive;
+  font-size: 3rem;
+  padding-top: 15px;
+  text-decoration: none;
+  transform: scale(1);
+  cursor: pointer;
+}
+#menus a :hover {
+  transform: scale(2);
+  transition: transform 400ms;
+}
+#menus a :active {
+  transform: scale(2);
+}
+
+.menu--lanote {
+  font-family: "Cookie", cursive;
+  box-shadow: 0px 0px 20px #b6b6b6;
+  border: solid #dfdfdf 1px;
+  margin: 20px auto 20px auto;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FCDFDB;
+  transform: scale(1);
+}
+.menu--lanote h2 {
+  font-size: 2rem;
+  color: #3C1218;
+}
+.menu--lanote :hover {
+  transform: scale(2);
+  transition: transform 400ms;
+}
+.menu--lanote :active {
+  transform: scale(2);
+}
+
+.menu--lechic {
+  font-family: "Sail", cursive;
+  box-shadow: 0px 0px 20px #b6b6b6;
+  border: solid #dfdfdf 1px;
+  margin: 20px auto 20px auto;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF5FE;
+  transform: scale(1);
+  cursor: pointer;
+}
+.menu--lechic h2 {
+  background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu--lechic :hover {
+  transform: scale(2);
+  transition: transform 400ms;
+}
+.menu--lechic :active {
+  transform: scale(2);
+}
+
+.menu--ledélice {
+  font-family: "Dancing Script", cursive;
+  box-shadow: 0px 0px 20px #b6b6b6;
+  border: solid #dfdfdf 1px;
+  margin: 20px auto 20px auto;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EDEFEF;
+  transform: scale(1);
+  cursor: pointer;
+}
+.menu--ledélice h2 {
+  background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu--ledélice :hover {
+  transform: scale(2);
+  transition: transform 400ms;
+}
+.menu--ledélice :active {
+  transform: scale(2);
+}
+
+.menu--lapalette {
+  font-family: "Kaushan Script", cursive;
+  box-shadow: 0px 0px 20px #b6b6b6;
+  border: solid #dfdfdf 1px;
+  margin: 20px auto 20px auto;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FDFFFD;
+  transform: scale(1);
+  cursor: pointer;
+}
+.menu--lapalette h2 {
+  background: linear-gradient(135deg, #41963C, #7DC85D, #BEFF7F);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu--lapalette :hover {
+  transform: scale(2);
+  transition: transform 400ms;
+}
+.menu--lapalette :active {
+  transform: scale(2);
+}
+
+.prochainement {
+  border-radius: 20px;
+  text-align: center;
+  width: 50%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #387a6f;
+  color: #dbe2b0;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */

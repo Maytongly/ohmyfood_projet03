@@ -9,27 +9,6 @@ body {
   width: 100%;
 }
 
-header {
-  background-color: #387a6f;
-  color: #dbe2b0;
-  font-size: 1.5rem;
-  text-align: center;
-  width: 100%;
-  padding: 15px;
-}
-
-footer {
-  background-color: #387a6f;
-  color: #dbe2b0;
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: space-around;
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  padding: 10px;
-}
-
 #menus {
   margin: auto;
   width: 900px;
@@ -41,18 +20,47 @@ footer {
 }
 #menus a {
   font-family: "Kalam", cursive;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-top: 15px;
   text-decoration: none;
   transform: scale(1);
   cursor: pointer;
 }
 #menus a :hover {
-  transform: scale(2);
+  transform: scale(1.3);
   transition: transform 400ms;
 }
 #menus a :active {
-  transform: scale(2);
+  transform: scale(1.3);
+}
+
+.menu {
+  cursor: pointer;
+}
+.menu:hover {
+  opacity: 0.4;
+  transition: 0.5s ease-in;
+}
+
+footer {
+  background-color: #387a6f;
+  color: #fdcb46;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px;
+}
+
+header {
+  background-color: #387a6f;
+  color: #fdcb46;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  padding: 15px 0px;
 }
 
 .menu--lanote {
@@ -75,7 +83,7 @@ footer {
   color: #3C1218;
 }
 .menu--lanote :hover {
-  transform: scale(2);
+  transform: scale(1.5);
   transition: transform 400ms;
 }
 .menu--lanote :active {
@@ -105,7 +113,7 @@ footer {
   -webkit-text-fill-color: transparent;
 }
 .menu--lechic :hover {
-  transform: scale(2);
+  transform: scale(1.2);
   transition: transform 400ms;
 }
 .menu--lechic :active {
@@ -135,7 +143,7 @@ footer {
   -webkit-text-fill-color: transparent;
 }
 .menu--ledélice :hover {
-  transform: scale(2);
+  transform: scale(1.3);
   transition: transform 400ms;
 }
 .menu--ledélice :active {
@@ -165,7 +173,7 @@ footer {
   -webkit-text-fill-color: transparent;
 }
 .menu--lapalette :hover {
-  transform: scale(2);
+  transform: scale(1.3);
   transition: transform 400ms;
 }
 .menu--lapalette :active {
@@ -173,14 +181,100 @@ footer {
 }
 
 .prochainement {
+  display: flex;
   border-radius: 20px;
   text-align: center;
+  justify-content: center;
   width: 50%;
   margin: 40px auto;
   padding: 20px;
+  cursor: pointer;
+  transform: scale(1);
   background-color: #387a6f;
-  color: #dbe2b0;
+  color: #fdcb46;
   font-size: 1.5rem;
+}
+.prochainement .point_de_suspension {
+  display: flex;
+  width: 20%;
+  padding-top: 15px;
+  justify-content: space-evenly;
+}
+.prochainement .point_de_suspension .point1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fdcb46;
+  animation: jump 1s ease-in-out infinite;
+}
+.prochainement .point_de_suspension .point2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fdcb46;
+  animation: jump 1s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+.prochainement .point_de_suspension .point3 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fdcb46;
+  animation: jump 1s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: cyan;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(1px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(1px);
+  }
+}
+.wiggle {
+  cursor: pointer;
+}
+.wiggle:hover {
+  animation: wiggle 1s;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(0);
+  }
+  35% {
+    transform: translateX(10px);
+  }
+  45% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  55% {
+    transform: translateX(5px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

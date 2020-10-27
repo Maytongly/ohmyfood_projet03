@@ -1,25 +1,65 @@
-
+*{
+    margin: 0%;
+}
+footer {
+    background-color: #387a6f;
+    color: #fdcb46;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  header {
+    background-color: #387a6f;
+    color: #fdcb46;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+  }
 #carte{
     margin: auto;
     border: rgb(226, 226, 226) 1px solid;
-    width: 530px;
+    max-width: 530px;
     height: 750px;
+
 }
 .menu{
     display: flex;
     justify-content: space-between;
-    padding: 0 10% 0 10%;
+    padding: 0 10%;
     font-size: 0.8rem;
 }
 h2{
+    height: 15%;
     padding-top: 10%;
-    padding-bottom: 6%;
+
     text-align: center;
     vertical-align: middle;
 }
 
 h3{
     text-align: center;
+}
+.titre_h3:hover + .souligner{
+    transform: scale(1);
+}
+.souligner{
+    width: 100px;
+    height: 2px;
+    background-color: red;
+    margin: auto;
+    transform: scale(0);
+    transform-origin: left;
+    transition: 0.5s ease-out;
+}
+.plats{
+    margin: 25px 0;
 }
 /* La note enchantée */
 .lanote{
@@ -56,6 +96,7 @@ h3{
     border-radius: 0 4px 0 0;
 }
 
+
 /* Le chic à la francaise*/
 .lechic{
     background-color: #FFF5FE;
@@ -78,10 +119,6 @@ h3{
     margin: auto;
     font-size: 0.8rem;
 }
-.lechic p{
-    padding: 0px;
-}
-
 .lechic .color_brown{
     color: #C77412;
 }

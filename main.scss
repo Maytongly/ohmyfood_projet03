@@ -96,7 +96,7 @@
     .point_de_suspension{
 
         display: flex;
-        width: 20%;
+        width: 70px;
         padding-top: 15px;
         justify-content: space-evenly;
             .point1{
@@ -116,10 +116,7 @@
 a:link{
     text-decoration: none;
 }
-a:visited {
-    background-color: cyan;
-  }
-  
+
 @keyframes jump {
     0% {
         transform: translateY(1px);

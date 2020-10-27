@@ -196,28 +196,28 @@ header {
 }
 .prochainement .point_de_suspension {
   display: flex;
-  width: 20%;
+  width: 70px;
   padding-top: 15px;
   justify-content: space-evenly;
 }
 .prochainement .point_de_suspension .point1 {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background-color: #fdcb46;
   animation: jump 1s ease-in-out infinite;
 }
 .prochainement .point_de_suspension .point2 {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background-color: #fdcb46;
   animation: jump 1s ease-in-out infinite;
   animation-delay: 0.2s;
 }
 .prochainement .point_de_suspension .point3 {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background-color: #fdcb46;
   animation: jump 1s ease-in-out infinite;
@@ -226,10 +226,6 @@ header {
 
 a:link {
   text-decoration: none;
-}
-
-a:visited {
-  background-color: cyan;
 }
 
 @keyframes jump {

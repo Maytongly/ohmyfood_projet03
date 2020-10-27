@@ -20,7 +20,7 @@ footer {
     text-align: center;
     width: 100%;
     padding: 15px 0px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 #carte{
     margin: auto;
@@ -35,12 +35,13 @@ footer {
     padding: 0 10%;
     font-size: 0.8rem;
 }
+p{
+    margin-bottom: 10px;
+}
 h2{
-    height: 15%;
-    padding-top: 10%;
-
+    height: 13%;
     text-align: center;
-    vertical-align: middle;
+    padding-top: 70px;
 }
 
 h3{
@@ -59,6 +60,9 @@ h3{
     transition: 0.5s ease-out;
 }
 .plats{
+    margin: 25px 0;
+}
+.prix{
     margin: 25px 0;
 }
 /* La note enchantée */
@@ -106,7 +110,6 @@ h3{
 }
 .lechic h2{
     font-family: 'Sail', cursive;
-    padding-top: 60px;
     font-size: 2rem;
     background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
     background-clip: border-box;

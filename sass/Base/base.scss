@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+body{
+    padding-bottom: 35px;
+    width: 100%;
+}
+#menus{
+    margin: auto;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+            h2{
+            font-size: 1.8rem;
+            }
+            a{
+            font-family: 'Kalam', cursive;
+            font-size: 2.5rem;
+            padding-top: 15px;
+            text-decoration: none;
+            transform: scale(1);
+            cursor: pointer;
+                :hover{
+                    transform: scale(1.3);
+                    transition: transform 400ms;
+                }
+                :active{
+                    transform: scale(1.3);
+                }
+
+            }
+    }
+.menu{
+    cursor: pointer;
+    &:hover{
+        opacity: 0.4;
+        transition: 0.5s ease-in;
+    }
+}

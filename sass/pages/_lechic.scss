@@ -1,0 +1,105 @@
+.lechic{
+    background-color: #FFF5FE;
+    p{
+        margin-bottom: 12px;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+        font-family: 'Sail', cursive;
+        font-size: 2rem;
+        background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h3{
+        padding-top: 0px;
+        padding-bottom: 5px;
+        margin: auto;
+        font-size: 0.8rem;
+    }
+    section{
+        padding-bottom: 30px;
+    }
+    .color_brown{
+        color: #C77412;
+    }
+    .color_purple{
+        color: #A56799;
+    }
+    .color_blue{
+        color: #6E4CCC;
+    }
+    .titre_h3{
+        display: flex;
+    }
+    .fléche_gauche{
+        padding-left: 3%;
+    }
+    .fléche_droit{
+        padding-right: 3%;
+    }
+    .trait_gauche_appétit1{
+        border-left: 145px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 4px solid #C77412;
+    }
+    .trait_gauche_appétit2{
+        border-left: 145px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 4px solid #C77412;
+    }
+    .trait_droit_appétit1{
+        border-left: 25px solid transparent;
+        border-right: 145px solid transparent;
+        border-bottom: 4px solid#C77412;
+    }
+    .trait_droit_appétit2{
+        border-left: 25px solid transparent;
+        border-right: 145px solid transparent;
+        border-top: 4px solid #C77412;
+    }
+    .trait_gauche_papilles1{
+        border-left: 145px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 4px solid#A56799;
+    }
+    .trait_gauche_papilles2{
+        border-left: 145px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 4px solid #A56799;
+    }
+    .trait_droit_papilles1{
+        border-left: 25px solid transparent;
+        border-right: 145px solid transparent;
+        border-bottom: 4px solid#A56799;
+    }
+    .trait_droit_papilles2{
+        border-left: 25px solid transparent;
+        border-right: 145px solid transparent;
+        border-top: 4px solid #A56799;
+    }
+    .trait_gauche_sucrées1{
+        border-left: 145px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 4px solid#6E4CCC;
+    }
+    .trait_gauche_sucrées2{
+        border-left: 145px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 4px solid #6E4CCC;
+    }
+    .trait_droit_sucrées1{
+        border-left: 25px solid transparent;
+        border-right: 145px solid transparent;
+        border-bottom: 4px solid#6E4CCC;
+    }
+    .trait_droit_sucrées2{
+        border-left: 25px solid transparent;
+        border-right: 145px solid transparent;
+        border-top: 4px solid #6E4CCC;
+    }
+}

@@ -1,4 +1,4 @@
-$bg-color: rgb(56, 122, 111);
+$bg-color: rgb(87, 156, 135);
 $txt-color:rgb(253, 203, 70);
 $br_color: rgb(223, 223, 223);
 $bg-lanote:#FCDFDB;
@@ -6,28 +6,4 @@ $bg-lechic:#FFF5FE;
 $bg-ledélice: #EDEFEF;
 $bg-lapalette: #FDFFFD;
 
-
-@mixin format_carte {        
-    box-shadow: 0px 0px 20px rgb(182, 182, 182);
-    border: solid $br_color 1px;
-    margin: 20px auto 20px auto;
-    width: 300px;
-    height: 450px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-@mixin mise_en_page {
-    background-color: $bg-color;
-    color: $txt-color;
-    font-size: 1.5rem;
-}
-@mixin points{
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: $txt-color;
-    animation: jump 1s ease-in-out infinite;
-}
+$txt-color-lanote: #3C1218;

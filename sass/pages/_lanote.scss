@@ -1,0 +1,67 @@
+@import '../utils/variables';
+@import '../utils/variables';
+
+.lanote{
+    background-color: #FCDFDB;
+    color: $txt-color-lanote;
+    h2{
+        
+        font-family: 'Cookie', cursive;
+        font-size: 2rem;
+        color: $txt-color-lanote;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5%;
+    }
+    h3{
+        padding-top: 10px;
+        margin: auto;
+    }
+    h4{
+        padding-top: 20px;
+        font-family: 'Cookie', cursive;
+        font-size: 2rem;
+        color: $txt-color-lanote;
+        text-align: center;
+    }
+    p{
+        margin-bottom: 7px;
+    }
+    .titre_h3{
+        display: flex;
+    }
+    .trait_gauche{
+        @include trait_lanote;
+        margin-left: 50px;
+
+    }
+    .trait_droit{
+        @include trait_lanote;
+        margin-right: 50px;
+
+    }
+    section{
+        font-family: 'Kalam', cursive;
+    }
+    p{
+        font-size: 12px;
+    }
+    .titre_icone i{
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+        background: linear-gradient(90deg, #F05160 45%, #F6916A 55%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    i{
+        padding-right: 10px;
+        background: linear-gradient(90deg, #F05160 30%, #F6916A 75%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+

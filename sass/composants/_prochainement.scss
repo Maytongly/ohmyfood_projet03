@@ -1,0 +1,41 @@
+.prochainement{
+    display: flex;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    cursor: pointer;
+    transform: scale(1);
+    @include mise_en_page;
+    .point_de_suspension{
+        display: flex;
+        width: 70px;
+        padding-top: 15px;
+        justify-content: space-evenly;
+            .point1{
+                @include points;
+            }
+            .point2{
+                @include points;
+                animation-delay: 0.2s;
+            }
+            .point3{
+                @include points;
+                animation-delay: 0.4s;
+            }
+    }
+}
+@keyframes jump {
+    0% {
+        transform: translateY(1px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(1px);
+    }
+}
+

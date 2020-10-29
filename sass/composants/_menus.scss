@@ -19,10 +19,6 @@
                     transform: scale(1.3);
                     transition: transform 400ms;
                 }
-                :active{
-                    transform: scale(1.3);
-                }
-
             }
     }
 .menu{
@@ -37,27 +33,28 @@
         font-family: 'Cookie', cursive;
         color: #3C1218;
     }
-    font-family: 'Cookie', cursive;
     @include format_carte;
     background-color: $bg-lanote;
         h2{
-            font-size: 2rem;
+            font-size: 1.8rem;
             color: #3C1218;
         }
         transform: scale(1);
         :hover{
-            transform: scale(1.5);
+            transform: scale(1.3);
             transition: transform 400ms;
         }
         :active{
             transform: scale(2);
         }
-        
 }
 .menu--lechic{
-    font-family: 'Sail', cursive;
     @include format_carte;
     background-color:$bg-lechic;
+        span{
+            font-family: 'Sail', cursive;
+            font-size: 1.8rem;
+        }
         h2{
             background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
             background-clip: border-box;
@@ -75,9 +72,13 @@
         }
 }
 .menu--ledélice{
-    font-family: 'Dancing Script', cursive;
+   
     @include format_carte;
     background-color: $bg-ledélice;
+        span{
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.8rem;
+        }
         h2{
             background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
             background-clip: border-box;
@@ -95,9 +96,12 @@
         }
 }
 .menu--lapalette{
-    font-family: 'Kaushan Script', cursive;
     @include format_carte;
     background-color: $bg-lapalette;
+        span {
+            font-family: 'Kaushan Script', cursive;
+            font-size: 1.8rem;
+        }
         h2{
             background: linear-gradient(135deg, #41963C, #7DC85D, #BEFF7F);
             background-clip: border-box;

@@ -78,6 +78,10 @@ header {
   background-color: #FCDFDB;
   transform: scale(1);
 }
+.menu--lanote span {
+  font-family: "Cookie", cursive;
+  color: #3C1218;
+}
 .menu--lanote h2 {
   font-size: 2rem;
   color: #3C1218;

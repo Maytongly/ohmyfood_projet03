@@ -33,6 +33,10 @@
     }
 }
 .menu--lanote{
+    span{
+        font-family: 'Cookie', cursive;
+        color: #3C1218;
+    }
     font-family: 'Cookie', cursive;
     @include format_carte;
     background-color: $bg-lanote;

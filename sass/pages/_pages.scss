@@ -21,8 +21,10 @@
     .plats{
         margin: 15px 0;
     }
-    .titre_h3:hover + .souligner{
+    .titre_h3{
+        &:hover + .souligner{
         transform: scale(1);
+        }
     }
     .souligner{
         width: 100px;

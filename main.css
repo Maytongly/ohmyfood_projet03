@@ -19,6 +19,10 @@ footer {
   width: 100%;
   padding: 10px;
 }
+footer a:link {
+  text-decoration: none;
+  color: #fdcb46;
+}
 
 header {
   background-color: #579c87;
@@ -43,7 +47,6 @@ header {
 #menus a {
   font-family: "Kalam", cursive;
   font-size: 2.5rem;
-  padding-top: 15px;
   text-decoration: none;
   transform: scale(1);
   cursor: pointer;
@@ -76,10 +79,12 @@ header {
 }
 .menu--lanote span {
   font-family: "Cookie", cursive;
-  color: #3C1218;
 }
 .menu--lanote h2 {
   font-size: 1.8rem;
+}
+.menu--lanote h2 a {
+  text-decoration: none;
   color: #3C1218;
 }
 .menu--lanote :hover {
@@ -274,11 +279,6 @@ header {
     transform: translateX(0px);
   }
 }
-a:link {
-  text-decoration: none;
-  color: #fdcb46;
-}
-
 #carte {
   margin: 25px auto;
   border: #e2e2e2 1px solid;
@@ -554,6 +554,7 @@ a:link {
 .ledélice h3 {
   padding-top: 10px;
   margin: auto;
+  font-size: 1rem;
 }
 .ledélice section {
   font-family: "Kalam", cursive;

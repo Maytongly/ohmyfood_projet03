@@ -11,7 +11,6 @@
             a{
             font-family: 'Kalam', cursive;
             font-size: 2.5rem;
-            padding-top: 15px;
             text-decoration: none;
             transform: scale(1);
             cursor: pointer;
@@ -31,13 +30,16 @@
 .menu--lanote{
     span{
         font-family: 'Cookie', cursive;
-        color: #3C1218;
+        
     }
     @include format_carte;
     background-color: $bg-lanote;
         h2{
             font-size: 1.8rem;
+            a{
+            text-decoration: none;
             color: #3C1218;
+            }
         }
         transform: scale(1);
         :hover{

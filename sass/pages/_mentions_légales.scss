@@ -1,0 +1,20 @@
+@import '../utils/variables';
+
+.contenu_mentions_légales{
+    display: flex;
+    justify-content: space-around;
+    main{
+        width: 600px;
+        margin: 10px;
+        margin-bottom: 50px;
+        border: 1px rgb(240, 240, 240) solid;
+        section{
+            padding: 3%;
+            text-align: center;
+        }
+        background: linear-gradient( $bg-lanote, $bg-lechic, $bg-ledélice, $bg-lapalette);
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;    }
+}

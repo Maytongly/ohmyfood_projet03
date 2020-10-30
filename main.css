@@ -636,4 +636,66 @@ header {
   flex-wrap: wrap;
 }
 
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
+  header {
+    height: 5em;
+  }
+
+  footer {
+    height: 3em;
+  }
+  footer p {
+    font-size: 2.5rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  #contenu #menus {
+    display: flex;
+    flex-direction: column;
+  }
+  #contenu #menus .menu {
+    width: 70%;
+    height: 800px;
+  }
+  #contenu .prochainement {
+    width: 60%;
+  }
+
+  #carte {
+    max-width: 90%;
+    height: 90em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #carte h2 {
+    height: 10%;
+    font-size: 5rem;
+  }
+  #carte h3 {
+    font-size: 2rem;
+  }
+  #carte h4 {
+    font-size: 3rem;
+  }
+  #carte .menu_page {
+    display: flex;
+  }
+  #carte .menu_page .plats {
+    justify-items: flex-start;
+  }
+  #carte .menu_page .plats p {
+    font-size: 1.5rem;
+  }
+  #carte .menu_page .prix {
+    justify-items: flex-end;
+  }
+  #carte .menu_page .prix p {
+    font-size: 1.5rem;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

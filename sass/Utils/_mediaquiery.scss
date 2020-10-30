@@ -1,0 +1,59 @@
+@media only screen and (min-device-width : 360px) and (max-device-width : 740px){
+    header{
+        height: 5em;
+    }
+    footer{
+        height: 3em;
+        p{
+            font-size: 2.5rem;
+        }
+    }
+    h1{
+        font-size: 5rem;
+    }
+    #contenu{
+        #menus{
+            display: flex;
+            flex-direction: column;
+            .menu{
+                width: 70%;
+                height: 800px;
+            }
+        }
+        .prochainement{
+            width: 60%;
+        }
+    }
+    #carte{
+        max-width: 90%;
+        height: 90em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        h2{
+            height: 10%;
+            font-size: 5rem;
+        }
+        h3{
+            font-size: 2rem;
+        }
+        h4{
+            font-size: 3rem;
+        }
+        .menu_page{
+            display: flex;
+            .plats{
+                justify-items: flex-start;
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+            .prix{
+                justify-items: flex-end;
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

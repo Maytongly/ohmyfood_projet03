@@ -26,12 +26,40 @@
     }
     .color_brown{
         color: #C77412;
+        .souligner {
+            width: 100px;
+            height: 2px;
+            background-color:  #C77412;
+            margin: auto;
+            transform: scale(0);
+            transform-origin: left;
+            transition: 0.5s ease-out;
+        }
     }
     .color_purple{
         color: #A56799;
+        .souligner {
+            width: 100px;
+            height: 2px;
+            background-color:#A56799;
+            margin: auto;
+            transform: scale(0);
+            transform-origin: left;
+            transition: 0.5s ease-out;
+        }
+        
     }
     .color_blue{
         color: #6E4CCC;
+        .souligner {
+            width: 100px;
+            height: 2px;
+            background-color: #6E4CCC;
+            margin: auto;
+            transform: scale(0);
+            transform-origin: left;
+            transition: 0.5s ease-out;
+        }
     }
     .titre_h3{
         display: flex;
@@ -102,4 +130,5 @@
         border-right: 145px solid transparent;
         border-top: 4px solid #6E4CCC;
     }
+ 
 }

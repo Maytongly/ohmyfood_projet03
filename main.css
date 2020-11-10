@@ -35,7 +35,7 @@ header {
 
 #menus {
   margin: auto;
-  width: 900px;
+  max-width: 900px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -284,6 +284,15 @@ header {
   border: #e2e2e2 1px solid;
   max-width: 530px;
   height: 750px;
+  /*.souligner {
+      width: 100px;
+      height: 2px;
+      background-color: red;
+      margin: auto;
+      transform: scale(0);
+      transform-origin: left;
+      transition: 0.5s ease-out;
+  }*/
 }
 #carte h3 {
   text-align: center;
@@ -303,15 +312,6 @@ header {
 }
 #carte .titre_h3:hover + .souligner {
   transform: scale(1);
-}
-#carte .souligner {
-  width: 100px;
-  height: 2px;
-  background-color: red;
-  margin: auto;
-  transform: scale(0);
-  transform-origin: left;
-  transition: 0.5s ease-out;
 }
 
 .lanote {
@@ -380,6 +380,15 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.lanote .souligner {
+  width: 100px;
+  height: 2px;
+  background-color: #3C1218;
+  margin: auto;
+  transform: scale(0);
+  transform-origin: left;
+  transition: 0.5s ease-out;
+}
 
 .lechic {
   background-color: #FFF5FE;
@@ -411,11 +420,38 @@ header {
 .lechic .color_brown {
   color: #C77412;
 }
+.lechic .color_brown .souligner {
+  width: 100px;
+  height: 2px;
+  background-color: #C77412;
+  margin: auto;
+  transform: scale(0);
+  transform-origin: left;
+  transition: 0.5s ease-out;
+}
 .lechic .color_purple {
   color: #A56799;
 }
+.lechic .color_purple .souligner {
+  width: 100px;
+  height: 2px;
+  background-color: #A56799;
+  margin: auto;
+  transform: scale(0);
+  transform-origin: left;
+  transition: 0.5s ease-out;
+}
 .lechic .color_blue {
   color: #6E4CCC;
+}
+.lechic .color_blue .souligner {
+  width: 100px;
+  height: 2px;
+  background-color: #6E4CCC;
+  margin: auto;
+  transform: scale(0);
+  transform-origin: left;
+  transition: 0.5s ease-out;
 }
 .lechic .titre_h3 {
   display: flex;
@@ -532,6 +568,15 @@ header {
   margin-right: 5%;
   border-radius: 0 0 3px 0;
 }
+.lapalette .souligner {
+  width: 100px;
+  height: 2px;
+  background-color: #BEFF7F;
+  margin: auto;
+  transform: scale(0);
+  transform-origin: left;
+  transition: 0.5s ease-out;
+}
 
 .ledélice {
   background-color: #EDEFEF;
@@ -604,6 +649,15 @@ header {
   margin-bottom: 10px;
   border-radius: 0 0 6px 0;
 }
+.ledélice .souligner {
+  width: 100px;
+  height: 2px;
+  background-color: #0228DD;
+  margin: auto;
+  transform: scale(0);
+  transform-origin: left;
+  transition: 0.5s ease-out;
+}
 
 #contenu i {
   font-size: 60px;
@@ -662,6 +716,7 @@ header {
   }
   #contenu .prochainement {
     width: 60%;
+    margin-bottom: 10%;
   }
 
   #carte {

@@ -69,6 +69,15 @@
         margin-bottom: 10px;
         border-radius: 0 0 6px 0;
     }
+    .souligner {
+        width: 100px;
+        height: 2px;
+        background-color:#0228DD ;
+        margin: auto;
+        transform: scale(0);
+        transform-origin: left;
+        transition: 0.5s ease-out;
+    }
 
 }
 

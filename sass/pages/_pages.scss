@@ -1,32 +1,37 @@
-#carte{
+#carte {
     margin: 25px auto;
     border: rgb(226, 226, 226) 1px solid;
     max-width: 530px;
     height: 750px;
-    
-   
-    h3{
+
+
+    h3 {
         text-align: center;
     }
-    .menu_page{
+
+    .menu_page {
         display: flex;
         justify-content: space-between;
         padding: 0 10%;
         font-size: 0.8rem;
     }
-    .prix{
+
+    .prix {
         font-weight: bold;
         margin: 15px 0;
     }
-    .plats{
+
+    .plats {
         margin: 15px 0;
     }
-    .titre_h3{
-        &:hover + .souligner{
-        transform: scale(1);
+
+    .titre_h3 {
+        &:hover+.souligner {
+            transform: scale(1);
         }
     }
-    .souligner{
+
+    /*.souligner {
         width: 100px;
         height: 2px;
         background-color: red;
@@ -34,11 +39,5 @@
         transform: scale(0);
         transform-origin: left;
         transition: 0.5s ease-out;
-    }
+    }*/
 }
-
-
-
-
-
-

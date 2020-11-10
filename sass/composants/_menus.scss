@@ -1,122 +1,152 @@
-#menus{
+#menus {
     margin: auto;
-    width: 900px;
+    max-width: 900px;
     display: flex;
     flex-wrap: wrap;
-            h2{
-            font-size: 1.8rem;
-            display: flex;
-            flex-direction: column;
-            }
-            a{
-            font-family: 'Kalam', cursive;
-            font-size: 2.5rem;
-            text-decoration: none;
-            transform: scale(1);
-            cursor: pointer;
-                :hover{
-                    transform: scale(1.3);
-                    transition: transform 400ms;
-                }
-            }
+
+    h2 {
+        font-size: 1.8rem;
+        display: flex;
+        flex-direction: column;
     }
-.menu{
+
+    a {
+        font-family: 'Kalam', cursive;
+        font-size: 2.5rem;
+        text-decoration: none;
+        transform: scale(1);
+        cursor: pointer;
+
+        :hover {
+            transform: scale(1.3);
+            transition: transform 400ms;
+        }
+    }
+}
+
+.menu {
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         opacity: 0.4;
         transition: 0.5s ease-in;
     }
 }
-.menu--lanote{
-    span{
+
+.menu--lanote {
+    span {
         font-family: 'Cookie', cursive;
-        
+
     }
+
     @include format_carte;
     background-color: $bg-lanote;
-        h2{
-            font-size: 1.8rem;
-            a{
+
+    h2 {
+        font-size: 1.8rem;
+
+        a {
             text-decoration: none;
             color: #3C1218;
-            }
         }
-        transform: scale(1);
-        :hover{
-            transform: scale(1.3);
-            transition: transform 400ms;
-        }
-        :active{
-            transform: scale(2);
-        }
+    }
+
+    transform: scale(1);
+
+    :hover {
+        transform: scale(1.3);
+        transition: transform 400ms;
+    }
+
+    :active {
+        transform: scale(2);
+    }
 }
-.menu--lechic{
+
+.menu--lechic {
     @include format_carte;
-    background-color:$bg-lechic;
-        span{
-            font-family: 'Sail', cursive;
-            font-size: 1.8rem;
-        }
-        h2{
-            background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
-            background-clip: border-box;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        transform: scale(1);
+    background-color: $bg-lechic;
+
+    span {
+        font-family: 'Sail', cursive;
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    transform: scale(1);
     cursor: pointer;
-        :hover{
-            transform: scale(1.2);
-            transition: transform 400ms;
-        }
-        :active{
-            transform: scale(2);
-        }
+
+    :hover {
+        transform: scale(1.2);
+        transition: transform 400ms;
+    }
+
+    :active {
+        transform: scale(2);
+    }
 }
-.menu--ledélice{
-   
+
+.menu--ledélice {
+
     @include format_carte;
     background-color: $bg-ledélice;
-        span{
-            font-family: 'Dancing Script', cursive;
-            font-size: 1.8rem;
-        }
-        h2{
-            background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
-            background-clip: border-box;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        transform: scale(1);
+
+    span {
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    transform: scale(1);
     cursor: pointer;
-        :hover{
-            transform: scale(1.3);
-            transition: transform 400ms;
-        }
-        :active{
-            transform: scale(2);
-        }
+
+    :hover {
+        transform: scale(1.3);
+        transition: transform 400ms;
+    }
+
+    :active {
+        transform: scale(2);
+    }
 }
-.menu--lapalette{
+
+.menu--lapalette {
     @include format_carte;
     background-color: $bg-lapalette;
-        span {
-            font-family: 'Kaushan Script', cursive;
-            font-size: 1.8rem;
-        }
-        h2{
-            background: linear-gradient(135deg, #41963C, #7DC85D, #BEFF7F);
-            background-clip: border-box;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        transform: scale(1);
+
+    span {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        background: linear-gradient(135deg, #41963C, #7DC85D, #BEFF7F);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    transform: scale(1);
     cursor: pointer;
-        :hover{
-            transform: scale(1.3);
-            transition: transform 400ms;
-        }
-        :active{
-            transform: scale(2);
-        }
+
+    :hover {
+        transform: scale(1.3);
+        transition: transform 400ms;
+    }
+
+    :active {
+        transform: scale(2);
+    }
 }

@@ -63,5 +63,14 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    .souligner {
+        width: 100px;
+        height: 2px;
+        background-color: $txt-color-lanote;
+        margin: auto;
+        transform: scale(0);
+        transform-origin: left;
+        transition: 0.5s ease-out;
+    }
 }
 

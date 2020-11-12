@@ -13,9 +13,7 @@
         font-family: 'Sail', cursive;
         font-size: 2rem;
         background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
-        background-clip: border-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        @include webkit_background;
     }
 
     h3 {

@@ -60,9 +60,7 @@
 
     h2 {
         background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
-        background-clip: border-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        @include webkit_background;
     }
 }
 
@@ -78,9 +76,7 @@
 
     h2 {
         background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
-        background-clip: border-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        @include webkit_background;
     }
 }
 
@@ -96,8 +92,6 @@
 
     h2 {
         background: linear-gradient(135deg, #41963C, #7DC85D, #BEFF7F);
-        background-clip: border-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        @include webkit_background;
     }
 }

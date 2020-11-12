@@ -639,7 +639,7 @@ header {
   width: 600px;
   margin: 10px;
   margin-bottom: 50px;
-  border: 1px #f0f0f0 dd solid;
+  border: 1px #f0f0f0 solid;
   background: linear-gradient(#FCDFDB, #FFF5FE, #EDEFEF, #FDFFFD);
 }
 .contenu_mentions_légales main section {
@@ -651,29 +651,14 @@ header {
   flex-wrap: wrap;
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
-  header {
-    height: 5em;
-  }
-
-  footer {
-    height: 3em;
-  }
-  footer p {
-    font-size: 2.5rem;
-  }
-
-  h1 {
-    font-size: 5rem;
-  }
-
+@media only screen and (min-width: 360px) and (max-width: 740px) {
   #contenu #menus {
     display: flex;
     flex-direction: column;
   }
   #contenu #menus .menu {
     width: 70%;
-    height: 800px;
+    height: 30em;
   }
   #contenu .prochainement {
     width: 60%;

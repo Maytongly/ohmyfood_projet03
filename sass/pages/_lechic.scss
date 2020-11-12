@@ -1,9 +1,11 @@
-.lechic{
+.lechic {
     background-color: #FFF5FE;
-    p{
+
+    p {
         margin-bottom: 12px;
     }
-    h2{
+
+    h2 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -15,120 +17,118 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    h3{
+
+    h3 {
         padding-top: 0px;
         padding-bottom: 5px;
         margin: auto;
         font-size: 0.8rem;
     }
-    section{
+
+    section {
         padding-bottom: 30px;
     }
-    .color_brown{
+
+    .color_brown {
         color: #C77412;
+
         .souligner {
-            width: 100px;
-            height: 2px;
-            background-color:  #C77412;
-            margin: auto;
-            transform: scale(0);
-            transform-origin: left;
-            transition: 0.5s ease-out;
+            background-color: #C77412;
+            @include soulignerTitre;
+
         }
     }
-    .color_purple{
+
+    .color_purple {
         color: #A56799;
+
         .souligner {
-            width: 100px;
-            height: 2px;
-            background-color:#A56799;
-            margin: auto;
-            transform: scale(0);
-            transform-origin: left;
-            transition: 0.5s ease-out;
+            background-color: #A56799;
+            @include soulignerTitre;
         }
-        
+
     }
-    .color_blue{
+
+    .color_blue {
         color: #6E4CCC;
+
         .souligner {
-            width: 100px;
-            height: 2px;
             background-color: #6E4CCC;
-            margin: auto;
-            transform: scale(0);
-            transform-origin: left;
-            transition: 0.5s ease-out;
+            @include soulignerTitre;
+
         }
     }
-    .titre_h3{
+
+    .titre_h3 {
         display: flex;
     }
-    .fléche_gauche{
+
+    .fléche_gauche {
         padding-left: 3%;
     }
-    .fléche_droit{
+
+    .fléche_droit {
         padding-right: 3%;
     }
-    .trait_gauche_appétit1{
-        border-left: 145px solid transparent;
-        border-right: 25px solid transparent;
+
+    .trait_gauche_appétit1 {
+        @include trait_gauche_lechic;
         border-bottom: 4px solid #C77412;
     }
-    .trait_gauche_appétit2{
-        border-left: 145px solid transparent;
-        border-right: 25px solid transparent;
+
+    .trait_gauche_appétit2 {
+        @include trait_gauche_lechic;
         border-top: 4px solid #C77412;
     }
-    .trait_droit_appétit1{
-        border-left: 25px solid transparent;
-        border-right: 145px solid transparent;
+
+    .trait_droit_appétit1 {
+        @include trait_droit_lechic;
         border-bottom: 4px solid#C77412;
     }
-    .trait_droit_appétit2{
-        border-left: 25px solid transparent;
-        border-right: 145px solid transparent;
+
+    .trait_droit_appétit2 {
+        @include trait_droit_lechic;
         border-top: 4px solid #C77412;
     }
-    .trait_gauche_papilles1{
-        border-left: 145px solid transparent;
-        border-right: 25px solid transparent;
+
+    .trait_gauche_papilles1 {
+        @include trait_gauche_lechic;
         border-bottom: 4px solid#A56799;
     }
-    .trait_gauche_papilles2{
-        border-left: 145px solid transparent;
-        border-right: 25px solid transparent;
+
+    .trait_gauche_papilles2 {
+        @include trait_gauche_lechic;
         border-top: 4px solid #A56799;
     }
-    .trait_droit_papilles1{
-        border-left: 25px solid transparent;
-        border-right: 145px solid transparent;
+
+    .trait_droit_papilles1 {
+        @include trait_droit_lechic;
         border-bottom: 4px solid#A56799;
     }
-    .trait_droit_papilles2{
-        border-left: 25px solid transparent;
-        border-right: 145px solid transparent;
+
+    .trait_droit_papilles2 {
+        @include trait_droit_lechic;
         border-top: 4px solid #A56799;
     }
-    .trait_gauche_sucrées1{
-        border-left: 145px solid transparent;
-        border-right: 25px solid transparent;
+
+    .trait_gauche_sucrées1 {
+        @include trait_gauche_lechic;
         border-bottom: 4px solid#6E4CCC;
     }
-    .trait_gauche_sucrées2{
-        border-left: 145px solid transparent;
-        border-right: 25px solid transparent;
+
+    .trait_gauche_sucrées2 {
+        @include trait_gauche_lechic;
         border-top: 4px solid #6E4CCC;
     }
-    .trait_droit_sucrées1{
-        border-left: 25px solid transparent;
-        border-right: 145px solid transparent;
+
+    .trait_droit_sucrées1 {
+        @include trait_droit_lechic;
         border-bottom: 4px solid#6E4CCC;
     }
-    .trait_droit_sucrées2{
-        border-left: 25px solid transparent;
-        border-right: 145px solid transparent;
+
+    .trait_droit_sucrées2 {
+        @include trait_droit_lechic;
         border-top: 4px solid #6E4CCC;
     }
- 
+
 }

@@ -1,11 +1,12 @@
 @import '../utils/variables';
 @import '../utils/variables';
 
-.lanote{
+.lanote {
     background-color: #FCDFDB;
     color: $txt-color-lanote;
-    h2{
-        
+
+    h2 {
+
         font-family: 'Cookie', cursive;
         font-size: 2rem;
         color: $txt-color-lanote;
@@ -13,40 +14,49 @@
         justify-content: center;
         padding-bottom: 5%;
     }
-    h3{
+
+    h3 {
         padding-top: 10px;
         margin: auto;
     }
-    h4{
+
+    h4 {
         padding-top: 20px;
         font-family: 'Cookie', cursive;
         font-size: 2rem;
         color: $txt-color-lanote;
         text-align: center;
     }
-    p{
+
+    p {
         margin-bottom: 7px;
     }
-    .titre_h3{
+
+    .titre_h3 {
         display: flex;
     }
-    .trait_gauche{
+
+    .trait_gauche {
         @include trait_lanote;
         margin-left: 50px;
 
     }
-    .trait_droit{
+
+    .trait_droit {
         @include trait_lanote;
         margin-right: 50px;
 
     }
-    section{
+
+    section {
         font-family: 'Kalam', cursive;
     }
-    p{
+
+    p {
         font-size: 12px;
     }
-    .titre_icone i{
+
+    .titre_icone i {
         font-size: 60px;
         display: flex;
         justify-content: center;
@@ -56,21 +66,17 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    i{
+
+    i {
         padding-right: 10px;
         background: linear-gradient(90deg, #F05160 30%, #F6916A 75%);
         background-clip: border-box;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
     .souligner {
-        width: 100px;
-        height: 2px;
         background-color: $txt-color-lanote;
-        margin: auto;
-        transform: scale(0);
-        transform-origin: left;
-        transition: 0.5s ease-out;
+        @include soulignerTitre;
     }
 }
-

@@ -46,14 +46,9 @@ header {
 }
 #menus a {
   font-family: "Kalam", cursive;
-  font-size: 2.5rem;
   text-decoration: none;
   transform: scale(1);
   cursor: pointer;
-}
-#menus a :hover {
-  transform: scale(1.3);
-  transition: transform 400ms;
 }
 
 .menu {
@@ -75,24 +70,17 @@ header {
   flex-direction: column;
   justify-content: center;
   background-color: #FCDFDB;
-  transform: scale(1);
 }
 .menu--lanote span {
   font-family: "Cookie", cursive;
 }
-.menu--lanote h2 {
-  font-size: 1.8rem;
+.menu--lanote:hover a {
+  transform: scale(1.25) !important;
+  transition: transform 400ms !important;
 }
 .menu--lanote h2 a {
   text-decoration: none;
   color: #3C1218;
-}
-.menu--lanote :hover {
-  transform: scale(1.3);
-  transition: transform 400ms;
-}
-.menu--lanote :active {
-  transform: scale(2);
 }
 
 .menu--lechic {
@@ -106,12 +94,13 @@ header {
   flex-direction: column;
   justify-content: center;
   background-color: #FFF5FE;
-  transform: scale(1);
-  cursor: pointer;
+}
+.menu--lechic:hover a {
+  transform: scale(1.25) !important;
+  transition: transform 400ms !important;
 }
 .menu--lechic span {
   font-family: "Sail", cursive;
-  font-size: 1.8rem;
 }
 .menu--lechic h2 {
   background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
@@ -119,15 +108,8 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.menu--lechic :hover {
-  transform: scale(1.2);
-  transition: transform 400ms;
-}
-.menu--lechic :active {
-  transform: scale(2);
-}
 
-.menu--ledélice {
+.menu--ledelice {
   box-shadow: 0px 0px 20px #b6b6b6;
   border: solid #dfdfdf 1px;
   margin: 20px auto 20px auto;
@@ -138,25 +120,19 @@ header {
   flex-direction: column;
   justify-content: center;
   background-color: #EDEFEF;
-  transform: scale(1);
-  cursor: pointer;
 }
-.menu--ledélice span {
+.menu--ledelice:hover a {
+  transform: scale(1.25) !important;
+  transition: transform 400ms !important;
+}
+.menu--ledelice span {
   font-family: "Dancing Script", cursive;
-  font-size: 1.8rem;
 }
-.menu--ledélice h2 {
+.menu--ledelice h2 {
   background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-.menu--ledélice :hover {
-  transform: scale(1.3);
-  transition: transform 400ms;
-}
-.menu--ledélice :active {
-  transform: scale(2);
 }
 
 .menu--lapalette {
@@ -170,25 +146,19 @@ header {
   flex-direction: column;
   justify-content: center;
   background-color: #FDFFFD;
-  transform: scale(1);
-  cursor: pointer;
+}
+.menu--lapalette:hover a {
+  transform: scale(1.25) !important;
+  transition: transform 400ms !important;
 }
 .menu--lapalette span {
   font-family: "Kaushan Script", cursive;
-  font-size: 1.8rem;
 }
 .menu--lapalette h2 {
   background: linear-gradient(135deg, #41963C, #7DC85D, #BEFF7F);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-.menu--lapalette :hover {
-  transform: scale(1.3);
-  transition: transform 400ms;
-}
-.menu--lapalette :active {
-  transform: scale(2);
 }
 
 .prochainement {
@@ -284,15 +254,6 @@ header {
   border: #e2e2e2 1px solid;
   max-width: 530px;
   height: 750px;
-  /*.souligner {
-      width: 100px;
-      height: 2px;
-      background-color: red;
-      margin: auto;
-      transform: scale(0);
-      transform-origin: left;
-      transition: 0.5s ease-out;
-  }*/
 }
 #carte h3 {
   text-align: center;
@@ -381,9 +342,9 @@ header {
   -webkit-text-fill-color: transparent;
 }
 .lanote .souligner {
+  background-color: #3C1218;
   width: 100px;
   height: 2px;
-  background-color: #3C1218;
   margin: auto;
   transform: scale(0);
   transform-origin: left;
@@ -421,9 +382,9 @@ header {
   color: #C77412;
 }
 .lechic .color_brown .souligner {
+  background-color: #C77412;
   width: 100px;
   height: 2px;
-  background-color: #C77412;
   margin: auto;
   transform: scale(0);
   transform-origin: left;
@@ -433,9 +394,9 @@ header {
   color: #A56799;
 }
 .lechic .color_purple .souligner {
+  background-color: #A56799;
   width: 100px;
   height: 2px;
-  background-color: #A56799;
   margin: auto;
   transform: scale(0);
   transform-origin: left;
@@ -445,9 +406,9 @@ header {
   color: #6E4CCC;
 }
 .lechic .color_blue .souligner {
+  background-color: #6E4CCC;
   width: 100px;
   height: 2px;
-  background-color: #6E4CCC;
   margin: auto;
   transform: scale(0);
   transform-origin: left;
@@ -571,11 +532,11 @@ header {
 .lapalette .souligner {
   width: 100px;
   height: 2px;
-  background-color: #BEFF7F;
   margin: auto;
   transform: scale(0);
   transform-origin: left;
   transition: 0.5s ease-out;
+  background-color: #BEFF7F;
 }
 
 .ledélice {
@@ -609,7 +570,7 @@ header {
   width: 130px;
   margin-left: 30px;
   margin-bottom: 10px;
-  border-radius: 0 0 0 7px;
+  border-radius: 0 0 0 6px;
 }
 .ledélice .trait_droit_commencer {
   border-bottom: #0228dd 3px solid;
@@ -652,11 +613,11 @@ header {
 .ledélice .souligner {
   width: 100px;
   height: 2px;
-  background-color: #0228DD;
   margin: auto;
   transform: scale(0);
   transform-origin: left;
   transition: 0.5s ease-out;
+  background-color: #0228DD;
 }
 
 #contenu i {
@@ -678,7 +639,7 @@ header {
   width: 600px;
   margin: 10px;
   margin-bottom: 50px;
-  border: 1px #f0f0f0 solid;
+  border: 1px #f0f0f0 dd solid;
   background: linear-gradient(#FCDFDB, #FFF5FE, #EDEFEF, #FDFFFD);
 }
 .contenu_mentions_légales main section {

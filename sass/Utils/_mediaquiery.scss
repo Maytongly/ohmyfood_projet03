@@ -1,46 +1,57 @@
-@media only screen and (min-width : 360px) and (max-width : 740px){
-    #contenu{
-        #menus{
+@media only screen and (min-width : 360px) and (max-width : 740px) {
+    #contenu {
+        #menus {
             display: flex;
             flex-direction: column;
-            .menu{
+
+            .menu {
                 width: 70%;
                 height: 30em;
             }
         }
-        .prochainement{
+
+        .prochainement {
             width: 60%;
             margin-bottom: 10%;
         }
     }
-    #carte{
+
+    #carte {
         max-width: 90%;
-        height: 90em;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        h2{
-            height: 10%;
-            font-size: 5rem;
+
+        h3 {
+            font-size: 0.8rem;
         }
-        h3{
-            font-size: 2rem;
+
+        .trait_gauche {
+            margin-left: 2%;
+            width: 7rem;
         }
-        h4{
-            font-size: 3rem;
+
+        .trait_droit {
+            margin-right: 2%;
+            width: 7rem;
         }
-        .menu_page{
+
+
+        .menu_page {
             display: flex;
-            .plats{
+
+            .plats {
                 justify-items: flex-start;
-                p{
-                    font-size: 1.5rem;
+
+                p {
+                    font-size: 0.65rem;
                 }
             }
-            .prix{
+
+            .prix {
                 justify-items: flex-end;
-                p{
-                    font-size: 1.5rem;
+
+                p {
+                    font-size: 0.65rem;
                 }
             }
         }

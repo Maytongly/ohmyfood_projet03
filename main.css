@@ -667,20 +667,19 @@ header {
 
   #carte {
     max-width: 90%;
-    height: 90em;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-  }
-  #carte h2 {
-    height: 10%;
-    font-size: 5rem;
   }
   #carte h3 {
-    font-size: 2rem;
+    font-size: 0.8rem;
   }
-  #carte h4 {
-    font-size: 3rem;
+  #carte .trait_gauche {
+    margin-left: 2%;
+    width: 7rem;
+  }
+  #carte .trait_droit {
+    margin-right: 2%;
+    width: 7rem;
   }
   #carte .menu_page {
     display: flex;
@@ -689,13 +688,13 @@ header {
     justify-items: flex-start;
   }
   #carte .menu_page .plats p {
-    font-size: 1.5rem;
+    font-size: 0.65rem;
   }
   #carte .menu_page .prix {
     justify-items: flex-end;
   }
   #carte .menu_page .prix p {
-    font-size: 1.5rem;
+    font-size: 0.65rem;
   }
 }
 

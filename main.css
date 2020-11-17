@@ -665,6 +665,55 @@ header {
     margin-bottom: 10%;
   }
 
+  .lechic .trait_gauche_appétit1 {
+    border-left: 97px solid transparent;
+    border-right: 17px solid transparent;
+  }
+  .lechic .trait_gauche_appétit2 {
+    border-left: 97px solid transparent;
+    border-right: 17px solid transparent;
+  }
+  .lechic .trait_droit_appétit1 {
+    border-left: 17px solid transparent;
+    border-right: 97px solid transparent;
+  }
+  .lechic .trait_droit_appétit2 {
+    border-left: 17px solid transparent;
+    border-right: 97px solid transparent;
+  }
+  .lechic .trait_gauche_papilles1 {
+    border-left: 97px solid transparent;
+    border-right: 17px solid transparent;
+  }
+  .lechic .trait_gauche_papilles2 {
+    border-left: 97px solid transparent;
+    border-right: 17px solid transparent;
+  }
+  .lechic .trait_droit_papilles1 {
+    border-left: 17px solid transparent;
+    border-right: 97px solid transparent;
+  }
+  .lechic .trait_droit_papilles2 {
+    border-left: 17px solid transparent;
+    border-right: 97px solid transparent;
+  }
+  .lechic .trait_gauche_sucrées1 {
+    border-left: 97px solid transparent;
+    border-right: 17px solid transparent;
+  }
+  .lechic .trait_gauche_sucrées2 {
+    border-left: 97px solid transparent;
+    border-right: 17px solid transparent;
+  }
+  .lechic .trait_droit_sucrées1 {
+    border-left: 17px solid transparent;
+    border-right: 97px solid transparent;
+  }
+  .lechic .trait_droit_sucrées2 {
+    border-left: 17px solid transparent;
+    border-right: 97px solid transparent;
+  }
+
   #carte {
     max-width: 90%;
     display: flex;

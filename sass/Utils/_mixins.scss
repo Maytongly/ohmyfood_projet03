@@ -34,7 +34,7 @@
 @mixin menuHover {
     &:hover {
         a {
-            transform: scale(1.25) !important;
+            transform: scale(1.20) !important;
             transition: transform 400ms !important;
         }
     }

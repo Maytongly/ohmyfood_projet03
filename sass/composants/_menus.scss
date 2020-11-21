@@ -5,7 +5,6 @@
     flex-wrap: wrap;
 
     h2 {
-        font-size: 1.8rem;
         display: flex;
         flex-direction: column;
     }
@@ -26,25 +25,24 @@
         transition: 0.5s ease-in;
     }
 
+    p {
+        font-size: 30px;
+    }
 }
 
 .menu--lanote {
-    span {
-        font-family: 'Cookie', cursive;
-
-    }
-
     @include menuHover;
     @include format_carte;
     background-color: $bg-lanote;
 
     h2 {
-
-        a {
-            text-decoration: none;
-            color: #3C1218;
-        }
+        font-family: 'Cookie', cursive;
+        color: #3C1218;
     }
+    p{
+        color: #3C1218;
+    }
+
 
 }
 
@@ -53,15 +51,16 @@
     @include format_carte;
     background-color: $bg-lechic;
 
-    span {
-        font-family: 'Sail', cursive;
-
-    }
-
     h2 {
+        font-family: 'Sail', cursive;
         background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
         @include webkit_background;
     }
+    p{
+        background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
+        @include webkit_background;
+    }
+
 }
 
 .menu--ledelice {
@@ -69,12 +68,12 @@
     @include format_carte;
     background-color: $bg-ledelice;
 
-    span {
-        font-family: 'Dancing Script', cursive;
-
-    }
-
     h2 {
+        font-family: 'Dancing Script', cursive;
+        background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
+        @include webkit_background;
+    }
+    p{
         background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
         @include webkit_background;
     }
@@ -85,13 +84,13 @@
     @include format_carte;
     background-color: $bg-lapalette;
 
-    span {
-        font-family: 'Kaushan Script', cursive;
-
-    }
-
     h2 {
-        background: linear-gradient(135deg, #41963C, #7DC85D, #BEFF7F);
+        font-family: 'Kaushan Script', cursive;
+        background: linear-gradient(150deg, #41963C 20%, #7DC85D, #BEFF7F 70%);
+        @include webkit_background;
+    }
+    p{
+        background: linear-gradient(150deg, #41963C 20%, #7DC85D, #BEFF7F 70%);
         @include webkit_background;
     }
 }

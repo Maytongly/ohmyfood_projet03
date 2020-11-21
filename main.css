@@ -19,7 +19,7 @@ footer {
   width: 100%;
   padding: 10px;
 }
-footer a:link {
+footer a {
   text-decoration: none;
   color: #fdcb46;
 }
@@ -32,6 +32,10 @@ header {
   width: 100%;
   padding: 15px 0px;
 }
+header a {
+  text-decoration: none;
+  color: #fdcb46;
+}
 
 #menus {
   margin: auto;
@@ -40,7 +44,6 @@ header {
   flex-wrap: wrap;
 }
 #menus h2 {
-  font-size: 1.8rem;
   display: flex;
   flex-direction: column;
 }
@@ -58,6 +61,9 @@ header {
   opacity: 0.4;
   transition: 0.5s ease-in;
 }
+.menu p {
+  font-size: 30px;
+}
 
 .menu--lanote {
   box-shadow: 0px 0px 20px #b6b6b6;
@@ -71,15 +77,15 @@ header {
   justify-content: center;
   background-color: #FCDFDB;
 }
-.menu--lanote span {
-  font-family: "Cookie", cursive;
-}
 .menu--lanote:hover a {
-  transform: scale(1.25) !important;
+  transform: scale(1.2) !important;
   transition: transform 400ms !important;
 }
-.menu--lanote h2 a {
-  text-decoration: none;
+.menu--lanote h2 {
+  font-family: "Cookie", cursive;
+  color: #3C1218;
+}
+.menu--lanote p {
   color: #3C1218;
 }
 
@@ -96,13 +102,17 @@ header {
   background-color: #FFF5FE;
 }
 .menu--lechic:hover a {
-  transform: scale(1.25) !important;
+  transform: scale(1.2) !important;
   transition: transform 400ms !important;
 }
-.menu--lechic span {
-  font-family: "Sail", cursive;
-}
 .menu--lechic h2 {
+  font-family: "Sail", cursive;
+  background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu--lechic p {
   background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -122,13 +132,17 @@ header {
   background-color: #EDEFEF;
 }
 .menu--ledelice:hover a {
-  transform: scale(1.25) !important;
+  transform: scale(1.2) !important;
   transition: transform 400ms !important;
 }
-.menu--ledelice span {
-  font-family: "Dancing Script", cursive;
-}
 .menu--ledelice h2 {
+  font-family: "Dancing Script", cursive;
+  background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu--ledelice p {
   background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -148,14 +162,18 @@ header {
   background-color: #FDFFFD;
 }
 .menu--lapalette:hover a {
-  transform: scale(1.25) !important;
+  transform: scale(1.2) !important;
   transition: transform 400ms !important;
 }
-.menu--lapalette span {
-  font-family: "Kaushan Script", cursive;
-}
 .menu--lapalette h2 {
-  background: linear-gradient(135deg, #41963C, #7DC85D, #BEFF7F);
+  font-family: "Kaushan Script", cursive;
+  background: linear-gradient(150deg, #41963C 20%, #7DC85D, #BEFF7F 70%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu--lapalette p {
+  background: linear-gradient(150deg, #41963C 20%, #7DC85D, #BEFF7F 70%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -78,7 +78,7 @@ header a {
   background-color: #FCDFDB;
 }
 .menu--lanote:hover a {
-  transform: scale(1.2) !important;
+  transform: scale(1.3) !important;
   transition: transform 400ms !important;
 }
 .menu--lanote h2 {
@@ -102,12 +102,13 @@ header a {
   background-color: #FFF5FE;
 }
 .menu--lechic:hover a {
-  transform: scale(1.2) !important;
+  transform: scale(1.3) !important;
   transition: transform 400ms !important;
 }
 .menu--lechic h2 {
   font-family: "Sail", cursive;
   background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -128,17 +129,19 @@ header a {
   background-color: #F9F9F9;
 }
 .menu--ledelice:hover a {
-  transform: scale(1.2) !important;
+  transform: scale(1.3) !important;
   transition: transform 400ms !important;
 }
 .menu--ledelice h2 {
   font-family: "Dancing Script", cursive;
   background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .menu--ledelice p {
   background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -156,17 +159,19 @@ header a {
   background-color: #FDFFFD;
 }
 .menu--lapalette:hover a {
-  transform: scale(1.2) !important;
+  transform: scale(1.3) !important;
   transition: transform 400ms !important;
 }
 .menu--lapalette h2 {
   font-family: "Kaushan Script", cursive;
   background: linear-gradient(150deg, #41963C 20%, #7DC85D, #BEFF7F 70%);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .menu--lapalette p {
   background: linear-gradient(150deg, #41963C 20%, #7DC85D, #BEFF7F 70%);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -334,15 +339,10 @@ header a {
 .lanote p {
   font-size: 12px;
 }
-.lanote .titre_icone i {
+.lanote .titre_icone {
+  text-align: center;
   font-size: 60px;
-  display: flex;
-  justify-content: center;
   padding-top: 5%;
-  background: linear-gradient(90deg, #F05160 45%, #F6916A 55%);
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .lanote i {
   padding-right: 10px;
@@ -374,6 +374,7 @@ header a {
   font-family: "Sail", cursive;
   font-size: 2rem;
   background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -496,13 +497,13 @@ header a {
   background-color: #FDFFFD;
 }
 .lapalette h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20%;
+  text-align: center;
+  padding-top: 15%;
+  height: 15%;
   font-family: "Kaushan Script", cursive;
   font-size: 2.5rem;
   background: linear-gradient(135deg, #41963C, #7DC85D, #BEFF7F);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -553,10 +554,9 @@ header a {
   margin-bottom: 12px;
 }
 .ledelice h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20%;
+  text-align: center;
+  padding-top: 15%;
+  height: 15%;
   font-family: "Dancing Script", cursive;
   font-size: 2.5rem;
   background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
@@ -629,10 +629,8 @@ header a {
 
 #contenu i {
   font-size: 60px;
-  display: flex;
-  justify-content: center;
   padding-top: 5%;
-  background: linear-gradient(90deg, #F05160 45%, #F6916A 55%);
+  background: linear-gradient(90deg, #F05160 45%, #F6916A 75%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -43,10 +43,6 @@ header a {
   display: flex;
   flex-wrap: wrap;
 }
-#menus h2 {
-  display: flex;
-  flex-direction: column;
-}
 #menus a {
   font-family: "Kalam", cursive;
   text-decoration: none;
@@ -668,6 +664,10 @@ header a {
   #contenu .prochainement {
     width: 60%;
     margin-bottom: 10%;
+  }
+
+  .ledelice h2 {
+    font-size: 2.2rem;
   }
 
   .lechic .trait_gauche_appétit1 {

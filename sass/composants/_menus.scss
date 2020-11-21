@@ -39,7 +39,8 @@
         font-family: 'Cookie', cursive;
         color: #3C1218;
     }
-    p{
+
+    p {
         color: #3C1218;
     }
 
@@ -56,9 +57,9 @@
         background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
         @include webkit_background;
     }
-    p{
-        background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
-        @include webkit_background;
+
+    p {
+        color: #DF871E;
     }
 
 }
@@ -73,7 +74,8 @@
         background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
         @include webkit_background;
     }
-    p{
+
+    p {
         background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
         @include webkit_background;
     }
@@ -89,7 +91,8 @@
         background: linear-gradient(150deg, #41963C 20%, #7DC85D, #BEFF7F 70%);
         @include webkit_background;
     }
-    p{
+
+    p {
         background: linear-gradient(150deg, #41963C 20%, #7DC85D, #BEFF7F 70%);
         @include webkit_background;
     }

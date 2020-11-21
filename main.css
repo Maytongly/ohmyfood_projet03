@@ -108,15 +108,11 @@ header a {
 .menu--lechic h2 {
   font-family: "Sail", cursive;
   background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
-  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .menu--lechic p {
-  background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #DF871E;
 }
 
 .menu--ledelice {
@@ -129,7 +125,7 @@ header a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #EDEFEF;
+  background-color: #F9F9F9;
 }
 .menu--ledelice:hover a {
   transform: scale(1.2) !important;
@@ -138,13 +134,11 @@ header a {
 .menu--ledelice h2 {
   font-family: "Dancing Script", cursive;
   background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
-  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .menu--ledelice p {
   background: linear-gradient(90deg, #0228DD, #0670F3, #229DF9);
-  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -168,13 +162,11 @@ header a {
 .menu--lapalette h2 {
   font-family: "Kaushan Script", cursive;
   background: linear-gradient(150deg, #41963C 20%, #7DC85D, #BEFF7F 70%);
-  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .menu--lapalette p {
   background: linear-gradient(150deg, #41963C 20%, #7DC85D, #BEFF7F 70%);
-  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -376,14 +368,12 @@ header a {
   margin-bottom: 12px;
 }
 .lechic h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 25%;
+  text-align: center;
+  padding-top: 15%;
+  height: 15%;
   font-family: "Sail", cursive;
   font-size: 2rem;
   background: linear-gradient(145deg, #DF871E 25%, #A56799, #8F5BFE);
-  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -513,7 +503,6 @@ header a {
   font-family: "Kaushan Script", cursive;
   font-size: 2.5rem;
   background: linear-gradient(135deg, #41963C, #7DC85D, #BEFF7F);
-  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -558,7 +547,7 @@ header a {
 }
 
 .ledelice {
-  background-color: #EDEFEF;
+  background-color: #F9F9F9;
 }
 .ledelice p {
   margin-bottom: 12px;
@@ -658,7 +647,7 @@ header a {
   margin: 10px;
   margin-bottom: 50px;
   border: 1px #f0f0f0 solid;
-  background: linear-gradient(#FCDFDB, #FFF5FE, #EDEFEF, #FDFFFD);
+  background: linear-gradient(#FCDFDB, #FFF5FE, #F9F9F9, #FDFFFD);
 }
 .contenu_mentions_légales main section {
   padding: 3%;

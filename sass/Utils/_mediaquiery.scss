@@ -15,66 +15,78 @@
             margin-bottom: 10%;
         }
     }
-    .ledelice{
-        h2{
+    .ledelice {
+        h2 {
             font-size: 2.2rem;
         }
     }
-    .lechic{
-        .trait_gauche_appétit1{
+
+    .lechic {
+        .trait_gauche_appétit1 {
             border-left: 97px solid transparent;
             border-right: 17px solid transparent;
         }
-        .trait_gauche_appétit2{
+
+        .trait_gauche_appétit2 {
             border-left: 97px solid transparent;
             border-right: 17px solid transparent;
         }
-        .trait_droit_appétit1{
+
+        .trait_droit_appétit1 {
             border-left: 17px solid transparent;
             border-right: 97px solid transparent;
         }
-        .trait_droit_appétit2{
+
+        .trait_droit_appétit2 {
             border-left: 17px solid transparent;
             border-right: 97px solid transparent;
         }
-        .trait_gauche_papilles1{
+
+        .trait_gauche_papilles1 {
             border-left: 97px solid transparent;
             border-right: 17px solid transparent;
         }
-        .trait_gauche_papilles2{
+
+        .trait_gauche_papilles2 {
             border-left: 97px solid transparent;
             border-right: 17px solid transparent;
         }
-        .trait_droit_papilles1{
+
+        .trait_droit_papilles1 {
             border-left: 17px solid transparent;
             border-right: 97px solid transparent;
         }
-        .trait_droit_papilles2{
+
+        .trait_droit_papilles2 {
             border-left: 17px solid transparent;
             border-right: 97px solid transparent;
         }
-        .trait_gauche_sucrées1{
+
+        .trait_gauche_sucrées1 {
             border-left: 97px solid transparent;
             border-right: 17px solid transparent;
         }
-        .trait_gauche_sucrées2{
+
+        .trait_gauche_sucrées2 {
             border-left: 97px solid transparent;
             border-right: 17px solid transparent;
         }
-        .trait_droit_sucrées1{
+
+        .trait_droit_sucrées1 {
             border-left: 17px solid transparent;
             border-right: 97px solid transparent;
         }
-        .trait_droit_sucrées2{
+
+        .trait_droit_sucrées2 {
             border-left: 17px solid transparent;
             border-right: 97px solid transparent;
         }
 
     }
 
-    
+
     #carte {
-        max-width: 90%;
+        max-width: 95%;
         display: flex;
         flex-direction: column;
         h3 {
@@ -94,7 +106,7 @@
 
         .menu_page {
             display: flex;
-
+            padding: 0% 3%;
             .plats {
                 justify-items: flex-start;
 

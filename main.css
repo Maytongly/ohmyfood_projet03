@@ -720,7 +720,7 @@ header a {
   }
 
   #carte {
-    max-width: 90%;
+    max-width: 95%;
     display: flex;
     flex-direction: column;
   }
@@ -737,6 +737,7 @@ header a {
   }
   #carte .menu_page {
     display: flex;
+    padding: 0% 3%;
   }
   #carte .menu_page .plats {
     justify-items: flex-start;

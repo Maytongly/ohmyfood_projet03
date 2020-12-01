@@ -271,16 +271,13 @@ header a {
 }
 #carte .menu_page {
   display: flex;
-  justify-content: space-between;
-  padding: 0 10%;
+  flex-direction: column;
+  padding: 2% 10% 5% 10%;
   font-size: 0.8rem;
 }
-#carte .prix {
-  font-weight: bold;
-  margin: 15px 0;
-}
-#carte .plats {
-  margin: 15px 0;
+#carte .menu_page div {
+  display: flex;
+  justify-content: space-between;
 }
 #carte .titre_h3:hover + .souligner {
   transform: scale(1);
@@ -365,7 +362,7 @@ header a {
 }
 .lechic h2 {
   text-align: center;
-  padding-top: 15%;
+  padding-top: 1%;
   height: 15%;
   font-family: "Sail", cursive;
   font-size: 2rem;
@@ -652,7 +649,7 @@ header a {
   flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 740px) {
+@media only screen and (max-width: 740px) {
   #contenu #menus {
     display: flex;
     flex-direction: column;
@@ -666,92 +663,58 @@ header a {
     margin-bottom: 10%;
     font-size: 1.2rem;
   }
+}
+.ledelice h2 {
+  font-size: 2.2rem;
+}
 
-  .ledelice h2 {
-    font-size: 2.2rem;
-  }
+.lechic .fléche_gauche,
+.lechic .fléche_droit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lechic .trait_gauche_lechic {
+  border-left: 97px solid transparent;
+  border-right: 17px solid transparent;
+}
+.lechic .trait_droit_lechic {
+  border-left: 17px solid transparent;
+  border-right: 97px solid transparent;
+}
 
-  .lechic .trait_gauche_appétit1 {
-    border-left: 97px solid transparent;
-    border-right: 17px solid transparent;
-  }
-  .lechic .trait_gauche_appétit2 {
-    border-left: 97px solid transparent;
-    border-right: 17px solid transparent;
-  }
-  .lechic .trait_droit_appétit1 {
-    border-left: 17px solid transparent;
-    border-right: 97px solid transparent;
-  }
-  .lechic .trait_droit_appétit2 {
-    border-left: 17px solid transparent;
-    border-right: 97px solid transparent;
-  }
-  .lechic .trait_gauche_papilles1 {
-    border-left: 97px solid transparent;
-    border-right: 17px solid transparent;
-  }
-  .lechic .trait_gauche_papilles2 {
-    border-left: 97px solid transparent;
-    border-right: 17px solid transparent;
-  }
-  .lechic .trait_droit_papilles1 {
-    border-left: 17px solid transparent;
-    border-right: 97px solid transparent;
-  }
-  .lechic .trait_droit_papilles2 {
-    border-left: 17px solid transparent;
-    border-right: 97px solid transparent;
-  }
-  .lechic .trait_gauche_sucrées1 {
-    border-left: 97px solid transparent;
-    border-right: 17px solid transparent;
-  }
-  .lechic .trait_gauche_sucrées2 {
-    border-left: 97px solid transparent;
-    border-right: 17px solid transparent;
-  }
-  .lechic .trait_droit_sucrées1 {
-    border-left: 17px solid transparent;
-    border-right: 97px solid transparent;
-  }
-  .lechic .trait_droit_sucrées2 {
-    border-left: 17px solid transparent;
-    border-right: 97px solid transparent;
-  }
-
-  #carte {
-    max-width: 95%;
-    display: flex;
-    flex-direction: column;
-  }
-  #carte h3 {
-    font-size: 0.8rem;
-  }
-  #carte .trait_gauche {
-    margin-left: 2%;
-    width: 7rem;
-  }
-  #carte .trait_droit {
-    margin-right: 2%;
-    width: 7rem;
-  }
-  #carte .menu_page {
-    display: flex;
-    padding: 0% 3%;
-  }
-  #carte .menu_page .plats {
-    justify-items: flex-start;
-  }
-  #carte .menu_page .plats p {
-    font-size: 0.65rem;
-  }
-  #carte .menu_page .prix {
-    justify-items: flex-end;
-  }
-  #carte .menu_page .prix p {
-    font-size: 0.65rem;
-  }
+#carte {
+  max-width: 95%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#carte h2 {
+  padding: 8%;
+}
+#carte h3 {
+  font-size: 1.2rem;
+}
+#carte .trait_gauche {
+  margin-left: 2%;
+  width: 7rem;
+}
+#carte .trait_droit {
+  margin-right: 2%;
+  width: 7rem;
+}
+#carte .menu_page {
+  display: flex;
+  padding: 5% 3%;
+}
+#carte .menu_page div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2%;
+}
+#carte .menu_page div p {
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,4 +1,4 @@
-@media only screen and (min-width : 360px) and (max-width : 740px) {
+@media only screen and (max-width : 740px) {
     #contenu {
         #menus {
             display: flex;
@@ -16,113 +16,72 @@
             font-size: 1.2rem;
         }
     }
-    .ledelice {
-        h2 {
-            font-size: 2.2rem;
-        }
+}
+.ledelice {
+    h2 {
+        font-size: 2.2rem;
     }
+}
 
-    .lechic {
-        .trait_gauche_appétit1 {
-            border-left: 97px solid transparent;
-            border-right: 17px solid transparent;
-        }
+.lechic {
 
-        .trait_gauche_appétit2 {
-            border-left: 97px solid transparent;
-            border-right: 17px solid transparent;
-        }
-
-        .trait_droit_appétit1 {
-            border-left: 17px solid transparent;
-            border-right: 97px solid transparent;
-        }
-
-        .trait_droit_appétit2 {
-            border-left: 17px solid transparent;
-            border-right: 97px solid transparent;
-        }
-
-        .trait_gauche_papilles1 {
-            border-left: 97px solid transparent;
-            border-right: 17px solid transparent;
-        }
-
-        .trait_gauche_papilles2 {
-            border-left: 97px solid transparent;
-            border-right: 17px solid transparent;
-        }
-
-        .trait_droit_papilles1 {
-            border-left: 17px solid transparent;
-            border-right: 97px solid transparent;
-        }
-
-        .trait_droit_papilles2 {
-            border-left: 17px solid transparent;
-            border-right: 97px solid transparent;
-        }
-
-        .trait_gauche_sucrées1 {
-            border-left: 97px solid transparent;
-            border-right: 17px solid transparent;
-        }
-
-        .trait_gauche_sucrées2 {
-            border-left: 97px solid transparent;
-            border-right: 17px solid transparent;
-        }
-
-        .trait_droit_sucrées1 {
-            border-left: 17px solid transparent;
-            border-right: 97px solid transparent;
-        }
-
-        .trait_droit_sucrées2 {
-            border-left: 17px solid transparent;
-            border-right: 97px solid transparent;
-        }
-
-    }
-
-
-    #carte {
-        max-width: 95%;
+    .fléche_gauche,
+    .fléche_droit {
         display: flex;
         flex-direction: column;
-        h3 {
-            font-size: 0.8rem;
-        }
+        justify-content: center;
+    }
 
-        .trait_gauche {
-            margin-left: 2%;
-            width: 7rem;
-        }
+    .trait_gauche_lechic {
+        border-left: 97px solid transparent;
+        border-right: 17px solid transparent;
+    }
 
-        .trait_droit {
-            margin-right: 2%;
-            width: 7rem;
-        }
+    .trait_droit_lechic {
+        border-left: 17px solid transparent;
+        border-right: 97px solid transparent;
+    }
+}
 
 
-        .menu_page {
+#carte {
+    max-width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        padding: 8%;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .trait_gauche {
+        margin-left: 2%;
+        width: 7rem;
+    }
+
+    .trait_droit {
+        margin-right: 2%;
+        width: 7rem;
+    }
+
+    .menu_page {
+        display: flex;
+        padding: 5% 3%;
+
+        div {
             display: flex;
-            padding: 0% 3%;
-            .plats {
-                justify-items: flex-start;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 2%;
 
-                p {
-                    font-size: 0.65rem;
-                }
+            p {
+                font-size: 1rem;
             }
 
-            .prix {
-                justify-items: flex-end;
-
-                p {
-                    font-size: 0.65rem;
-                }
-            }
         }
     }
 }

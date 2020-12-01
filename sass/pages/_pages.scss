@@ -11,18 +11,14 @@
 
     .menu_page {
         display: flex;
-        justify-content: space-between;
-        padding: 0 10%;
+        flex-direction: column;
+        padding: 2% 10% 5% 10%;
         font-size: 0.8rem;
-    }
-
-    .prix {
-        font-weight: bold;
-        margin: 15px 0;
-    }
-
-    .plats {
-        margin: 15px 0;
+        div{
+            display: flex;
+            justify-content: space-between;
+        }
+        
     }
 
     .titre_h3 {

@@ -3,7 +3,7 @@
     border-radius: 20px;
     text-align: center;
     justify-content: center;
-    width: 50%;
+    width: 30%;
     margin: 40px auto;
     padding: 20px;
     cursor: pointer;
@@ -27,6 +27,7 @@
             }
     }
 }
+
 @keyframes jump {
     0% {
         transform: translateY(1px);

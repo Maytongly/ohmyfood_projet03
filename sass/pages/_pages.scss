@@ -23,6 +23,8 @@
 
     .titre_h3 {
         &:hover+.souligner {
+
+            
             transform: scale(1);
         }
     }

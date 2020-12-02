@@ -177,7 +177,7 @@ header a {
   border-radius: 20px;
   text-align: center;
   justify-content: center;
-  width: 50%;
+  width: 30%;
   margin: 40px auto;
   padding: 20px;
   cursor: pointer;
@@ -246,9 +246,6 @@ header a {
   }
   45% {
     transform: translateX(-10px);
-  }
-  50% {
-    transform: translateX(0);
   }
   55% {
     transform: translateX(5px);
@@ -663,58 +660,59 @@ header a {
     margin-bottom: 10%;
     font-size: 1.2rem;
   }
-}
-.ledelice h2 {
-  font-size: 2.2rem;
-}
 
-.lechic .fléche_gauche,
+  .ledelice h2 {
+    font-size: 2.2rem;
+  }
+
+  .lechic .fléche_gauche,
 .lechic .fléche_droit {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.lechic .trait_gauche_lechic {
-  border-left: 97px solid transparent;
-  border-right: 17px solid transparent;
-}
-.lechic .trait_droit_lechic {
-  border-left: 17px solid transparent;
-  border-right: 97px solid transparent;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .lechic .trait_gauche_lechic {
+    border-left: 97px solid transparent;
+    border-right: 17px solid transparent;
+  }
+  .lechic .trait_droit_lechic {
+    border-left: 17px solid transparent;
+    border-right: 97px solid transparent;
+  }
 
-#carte {
-  max-width: 95%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-#carte h2 {
-  padding: 8%;
-}
-#carte h3 {
-  font-size: 1.2rem;
-}
-#carte .trait_gauche {
-  margin-left: 2%;
-  width: 7rem;
-}
-#carte .trait_droit {
-  margin-right: 2%;
-  width: 7rem;
-}
-#carte .menu_page {
-  display: flex;
-  padding: 5% 3%;
-}
-#carte .menu_page div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 2%;
-}
-#carte .menu_page div p {
-  font-size: 1rem;
+  #carte {
+    max-width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #carte h2 {
+    padding: 8%;
+  }
+  #carte h3 {
+    font-size: 1.2rem;
+  }
+  #carte .trait_gauche {
+    margin-left: 2%;
+    width: 7rem;
+  }
+  #carte .trait_droit {
+    margin-right: 2%;
+    width: 7rem;
+  }
+  #carte .menu_page {
+    display: flex;
+    padding: 5% 3%;
+  }
+  #carte .menu_page div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+  }
+  #carte .menu_page div p {
+    font-size: 1rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

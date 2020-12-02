@@ -39,12 +39,14 @@
     .trait_gauche {
         @include trait_lanote;
         margin-left: 50px;
+        border-radius: 4px 0 0 0;
 
     }
 
     .trait_droit {
         @include trait_lanote;
         margin-right: 50px;
+        border-radius: 0 4px 0 0;
 
     }
 

@@ -3,6 +3,11 @@
 .contenu_mentions_légales{
     display: flex;
     justify-content: space-around;
+    h2{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
     main{
         width: 600px;
         margin: 10px;
